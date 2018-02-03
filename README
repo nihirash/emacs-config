@@ -1,0 +1,21 @@
+Mine EMACS config.
+==================
+
+There first usable for me config of emacs editor.
+
+I using HHKB Pro keyboard and remaped some keys for more comfort editing in emacs.
+
+What keys I using?
+
+ - CUA keys for copy/cut/paste
+ - META+hjkl for moving cursor. This is really nice combination.
+ - META+CTRL+h - for backward word
+ - META+CTRL+l - for forward word
+ - META+CTRL+jk - for page up/down
+ - CTRL+TAB - next window
+ - CTRL+w - close current window
+ - CTRL+s - save buffer
+ - CTRL+META+s - save as buffer
+ - CTRL+o - for open/create file(calls ido-find-file)
+ - CTRL+p - for toggling speedbar
+ 
