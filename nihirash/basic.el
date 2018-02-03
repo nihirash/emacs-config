@@ -27,3 +27,4 @@
 (add-to-list 'ac-dictionary-directories "/home/nihirash/ac-dict/")
 
 (rainbow-delimiters-mode)
+(linum-mode)
