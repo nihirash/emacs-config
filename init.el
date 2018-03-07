@@ -37,7 +37,8 @@
     ("4e63466756c7dbd78b49ce86f5f0954b92bf70b30c01c494b37c586639fa3f6f" default)))
  '(package-selected-packages
    (quote
-    (auto-complete tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider)))
+    (ac-cider auto-complete tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider)))
+ '(speedbar-show-unknown-files t)
  '(sr-speedbar-max-width 30)
  '(sr-speedbar-right-side nil))
 (custom-set-faces
@@ -46,5 +47,3 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-
-(sr-speedbar-open)

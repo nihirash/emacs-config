@@ -26,9 +26,17 @@
 (gsk "M-C-j" 'cua-scroll-up)
 (gsk "M-C-k" 'cua-scroll-down)
 
+(defun kill-current-buffer ()
+  (interactive)
+  (kill-buffer (current-buffer)))
+
 ;; Windowing
 (gsk "<C-tab>" 'other-window)
 (gsk "C-w" 'delete-window)
+(gsk "M-C-w" 'kill-current-buffer)
+
+;; Search
+(gsk "C-f" 'isearch-forward)
 
 ;; More usual keybindings for open/save
 (gus "C-x C-s")

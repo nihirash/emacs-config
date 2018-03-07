@@ -9,7 +9,7 @@
 
 ;; Hide toolbars
 (tool-bar-mode -1)
-(menu-bar-mode -1)
+(menu-bar-mode t)
 
 ;; Disable start screen
 (setq inhibit-startup-screen t)
@@ -26,5 +26,5 @@
 (ac-config-default)
 (add-to-list 'ac-dictionary-directories "/home/nihirash/ac-dict/")
 
+(global-linum-mode t)
 (rainbow-delimiters-mode)
-(linum-mode)
